@@ -5,11 +5,11 @@
 
 <div>
     <label for="player1Color">Player 1 Color:</label>
-    <input type="color" id="player1Color" @bind="player1Color" />
+    <input type="color" id="player1Color" @bind="player1Color" @bind:event="oninput" />
 </div>
 <div>
     <label for="player2Color">Player 2 Color:</label>
-    <input type="color" id="player2Color" @bind="player2Color" />
+    <input type="color" id="player2Color" @bind="player2Color" @bind:event="oninput" />
 </div>
 
 <Board BoardColor="@System.Drawing.Color.Black"

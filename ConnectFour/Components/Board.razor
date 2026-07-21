@@ -1,19 +1,7 @@
 @inject GameState State
 @using System.Drawing
 
-<HeadContent>
-   <style>
-      :root {
-         --board-bg: @ColorTranslator.ToHtml(BoardColor);
-         /** the color of the board **/
-         --player1: @ColorTranslator.ToHtml(Player1Color);
-         /** Player 1's piece color **/
-         --player2: @ColorTranslator.ToHtml(Player2Color);
-         /** Player 2's piece color **/
-      }
-   </style>
-</HeadContent>
-
+<div style="@CssVariables">
 <nav>
    @for (byte i = 0; i < 7; i++)
    {
@@ -35,10 +23,14 @@
       <span class="@pieces[i]"></span>
    }
 </div>
+</div>
 @code {
    [Parameter] public Color BoardColor { get; set; } = Color.Yellow;
    [Parameter] public Color Player1Color { get; set; } = Color.Red;
    [Parameter] public Color Player2Color { get; set; } = Color.Blue;
+
+   private string CssVariables =>
+      $"--board-bg: {ColorTranslator.ToHtml(BoardColor)}; --player1: {ColorTranslator.ToHtml(Player1Color)}; --player2: {ColorTranslator.ToHtml(Player2Color)};";
 
    private string[] pieces = new string[42];
 
