@@ -158,17 +158,16 @@ public class GameState
     {
 
         // Check for a current win
-        if (CheckForWin() != 0) throw new ArgumentException("Game is over");
+        if (CheckForWin() != WinState.No_Winner) throw new ArgumentException("Game is over");
 
         // Check the column
         if (TheBoard[column] != 0) throw new ArgumentException("Column is full");
 
-        // Drop the piece in
-        var landingSpot = column;
-        for (var i = column; i < 42; i += 7)
+        // Drop the piece to the lowest open cell in the column
+        var landingSpot = column + 35;
+        while (landingSpot >= column && TheBoard[landingSpot] != 0)
         {
-            if (TheBoard[landingSpot + 7] != 0) break;
-            landingSpot = i;
+            landingSpot -= 7;
         }
 
         TheBoard[landingSpot] = PlayerTurn;
