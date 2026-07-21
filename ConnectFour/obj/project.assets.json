@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joeyblack/Desktop/School/CSE 325/ConnectFour/ConnectFour.csproj",
+      "projectUniqueName": "/Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/ConnectFour.csproj",
       "projectName": "ConnectFour",
-      "projectPath": "/Users/joeyblack/Desktop/School/CSE 325/ConnectFour/ConnectFour.csproj",
+      "projectPath": "/Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/ConnectFour.csproj",
       "packagesPath": "/Users/joeyblack/.nuget/packages/",
-      "outputPath": "/Users/joeyblack/Desktop/School/CSE 325/ConnectFour/obj/",
+      "outputPath": "/Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/joeyblack/.nuget/NuGet/NuGet.Config"
