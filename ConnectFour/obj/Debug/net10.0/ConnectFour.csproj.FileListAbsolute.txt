@@ -86,8 +86,8 @@
 /Users/joeyblack/Desktop/School/CSE 325/ConnectFour/obj/Debug/net10.0/compressed/qps0edvuu1-{0}-y14i0qzpdp-y14i0qzpdp.gz
 /Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/appsettings.Development.json
 /Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/appsettings.json
-/Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/ConnectFour.staticwebassets.endpoints.json
 /Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/ConnectFour.staticwebassets.runtime.json
+/Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/ConnectFour.staticwebassets.endpoints.json
 /Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/ConnectFour
 /Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/ConnectFour.deps.json
 /Users/joeyblack/Desktop/School/School-CSE-325/ConnectFour/bin/Debug/net10.0/ConnectFour.runtimeconfig.json
